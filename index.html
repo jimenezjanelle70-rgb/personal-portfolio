@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Carter | Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website for Alex Carter featuring home, gallery, about and contact sections."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand">A<span>C</span></a>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Photographer • Designer • Storyteller</p>
+            <h1>Creating meaningful experiences through visual art.</h1>
+            <p class="lead">
+              I’m Alex Carter — a multidisciplinary creative helping brands and
+              people turn ideas into memorable stories.
+            </p>
+            <div class="cta-row">
+              <a href="#contact" class="btn btn-primary">Book a Session</a>
+              <a href="#gallery" class="btn btn-light">View Gallery</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="photo-frame">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+                alt="Portrait of Alex Carter"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery section">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Gallery</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item tall">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                alt="Portrait session"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80"
+                alt="Creative lifestyle shot"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                alt="Model portrait"
+              />
+            </figure>
+            <figure class="gallery-item wide">
+              <img
+                src="https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=1200&q=80"
+                alt="Outdoor lifestyle scene"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container about-wrap">
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80"
+              alt="Alex working on a creative project"
+            />
+          </div>
+
+          <div class="about-text">
+            <p class="eyebrow">About me</p>
+            <h2>Creative direction with a human touch.</h2>
+            <p>
+              I’ve spent the last several years helping individuals, startups, and
+              brands express themselves through photography, visual design, and
+              storytelling. My approach blends emotion, structure, and detail to
+              create work that feels authentic and memorable.
+            </p>
+            <p>
+              Whether it’s a personal portfolio, campaign visual, or an editorial
+              session, I focus on clarity, personality, and experience.
+            </p>
+
+            <div class="stats">
+              <div>
+                <strong>8+</strong>
+                <span>Years</span>
+              </div>
+              <div>
+                <strong>60+</strong>
+                <span>Projects</span>
+              </div>
+              <div>
+                <strong>12</strong>
+                <span>Awards</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s create something beautiful.</h2>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-info">
+              <h3>Get in touch</h3>
+              <p>Email: alex@creativestudio.com</p>
+              <p>Phone: +1 (555) 214-8899</p>
+              <p>Based in New York, USA</p>
+            </div>
+
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" aria-label="Your Name" />
+              <input type="email" placeholder="Your Email" aria-label="Your Email" />
+              <textarea rows="5" placeholder="Tell me about your project" aria-label="Your message"></textarea>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 Alex Carter</p>
+      </div>
+    </footer>
+  </body>
+</html>
